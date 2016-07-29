@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+*{box-sizing:border-box;margin:0;padding:0}
+#chat{display:none;-webkit-transition:background-color 1000ms linear;-moz-transition:background-color 1000ms linear;-o-transition:background-color 1000ms linear;-ms-transition:background-color 1000ms linear;transition:background-color 1000ms linear}
+form{position:fixed;bottom:0;width:100%}
+form input{outline:none;border:2px solid #aa78aa;font-size:14px;line-height:18px;height:40px;font-family:Helvetica, sans-serif;width:100%;padding:10px}
+form input:focus,form input:active{outline:none}
+div#messages{margin:10px}
+div#messages p{border-left:3px solid;padding-left:10px;display:block;margin:10px 0 0 10px}
+body{color:#202020;font-family:Roboto, sans-serif}
+#container{width:100vw;height:100vw;background:#DC143C;margin:0;padding:0}
+#content{position:absolute;width:100%;margin-top:10%;text-align:center}
+#box{background:#fff;text-align:center;width:400px;border-top-left-radius:10px;border-top-right-radius:10px;box-shadow:8px 10px rgba(0,0,0,0.2);margin:auto;padding:10px}
+.highlight{color:#DC143C}
+h1{font-family:HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight:500;text-transform:uppercase;font-size:1.5em;font-style:italic;margin:.5em 0}
+h2{font-size:1.3em;font-weight:300;margin-bottom:1em}
+a:link{text-decoration:none}
+a .blueLink{color:#335c92}
+a .blueLink:hover{text-decoration:underline}
+.blue{background:#5D9CEC}
+a{color:#fff;width:95%;height:50px;display:block;line-height:50px;border-bottom:4px solid rgba(0,0,0,0.3);margin:10px}
