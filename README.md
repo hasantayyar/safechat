@@ -17,3 +17,8 @@ $ eb deploy
 $ docker-compose build
 $ docker-compose up
 ```
+
+##Testing
+You need mocha `$ npm install mocha -g`
+The just run `mocha`
+
