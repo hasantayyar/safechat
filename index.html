@@ -124,7 +124,7 @@
 </head>
 <body>
 
-   <div id="container">
+  <div id="container">
     <div id="content">
       <div id="box">
         <h1>No bull***, no f**, no history.</h1>
@@ -133,7 +133,6 @@
       </div>
     </div>
   </div>
-
   <div id="chat">
     <div id="messages"></div>
     <form action="">
@@ -159,8 +158,14 @@
         return false;
       });
       socket.on('_message', function(msg){
-        $('#messages').append($('<p>').text(msg));
+        msg = msg.split("###");
+        console.log("raw message" , msg);
+        $("#chat").css("background-color","#de99de");
+        setTimeout(function(){ $("#chat").css("background-color","#fff");}, 200)
+        $('#messages').append($('<p style="border-color:' + msg[1] + '">').text(msg[0]));
       });
+
+      console.log( "ready!" );
     });
   </script>
 
