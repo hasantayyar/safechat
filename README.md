@@ -23,5 +23,5 @@ You need mocha `$ npm install mocha -g`
 The just run `mocha`
 
 ![preview 1](https://raw.githubusercontent.com/hasantayyar/safechat/master/assets/images/preview-1.png)
-![preview 2](https://raw.githubusercontent.com/hasantayyar/safechat/master/assets/images/preview-1.png)
+![preview 2](https://raw.githubusercontent.com/hasantayyar/safechat/master/assets/images/preview-2.png)
 
