@@ -1,5 +1,5 @@
 #Scaling with Elastic Beanstalk
-Live demo running on eb : http://socket-env.fxy3cajrui.us-west-2.elasticbeanstalk.com/
+Live demo running on eb : http://socket-env.xzr2x2ghvw.eu-west-1.elasticbeanstalk.com/
 
 .ebextensions/files.config is a necessary file for EB to use socket.io app with nignix revers proxy.
 
