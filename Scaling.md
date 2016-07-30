@@ -22,4 +22,10 @@ After your environment turns to green you can change your scaling settings.
 
 
 
+Notes :
 
+about dockerrun.aws.json
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/troubleshooting-docker.html#no-expose-found-in-dockerfile
+
+about .ebextensions/files.config
+https://jkwl.io/deployment/2015/03/14/using-socketio-with-elastic-beanstalk.html
