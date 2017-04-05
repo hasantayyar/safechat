@@ -1,5 +1,7 @@
 #Safe Chat
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hasantayyar/safechat.svg)](https://greenkeeper.io/)
+
 ##Deploying to Elastic Beanstalk
 
 ```
